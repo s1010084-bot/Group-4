@@ -5,6 +5,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
 =======
     <mapping directory="" vcs="Git" />
@@ -18,5 +19,8 @@
 =======
     <mapping directory="" vcs="Git" />
 >>>>>>> origin/InocencioBranch
+=======
+    <mapping directory="" vcs="Git" />
+>>>>>>> d1a5eeef5a9ec7b4f5f77c12dad05c0bd248c90b
   </component>
 </project>
