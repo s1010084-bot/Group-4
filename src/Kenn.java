@@ -1,5 +1,7 @@
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 private class Kenn extends JFrame {
     private JButton savebutton;
@@ -23,6 +25,13 @@ private class Kenn extends JFrame {
 
         savebutton = new JButton("SAVE");
         addComponent(2,3,2,savebutton);
+
+        savebutton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+
+            }
+        });
 
         setLocation(400,400);
         pack();
